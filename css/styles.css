@@ -1,16 +1,18 @@
-.container {
+.heading {
   background-image: url("../img/backgrounds/landing.jpg");
   text-align: center;
-widows: 1080px;
-height: 450px;
+width: 100%;
 color: white;
 font-size: 30px;
+background-repeat: no-repeat;
+background-size: cover;
+
 }}
 
 .lefties {
   float: left;
 
-  
+
 
 }
 .imagesx{
@@ -25,6 +27,10 @@ ul {
     background-color: #f1f1f1;
     font-size: 30px;
     text-decoration: none;
+}
+
+#righties{
+  float: right;
 }
 
 li a {
