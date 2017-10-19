@@ -2,16 +2,13 @@
   background-image: url("../img/backgrounds/landing.jpg");
   text-align: center;
 width: 100%;
+height: 600px;
 color: white;
 font-size: 30px;
 background-repeat: no-repeat;
 background-size: cover;
 
 }}
-
-.lefties {
-  float: left;
-
 
 
 }
@@ -21,13 +18,47 @@ background-size: cover;
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0 5px;
+    padding: 0 5px;
     width: 200px;
     background-color: #f1f1f1;
     font-size: 30px;
     text-decoration: none;
 }
+
+
+.breakfast {
+  background-image: url("../img/foodtop/breakfast.jpg");
+  background-size: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.lunch {
+  background-image: url("../img/foodtop/lunch.jpg");
+  background-size: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.dinner {
+  background-image: url("../img/foodtop/dinner.jpg");
+  background-size: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+
+
 
 #righties{
   float: right;
