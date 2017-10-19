@@ -1,10 +1,7 @@
 .container {
   background-image: url("../img/backgrounds/landing.jpg");
-  background-size: auto;
-  background-repeat: no-repeat;
   text-align: center;
-  margin: 0;
-  padding: 0;
+widows: 1080px;
 height: 450px;
 color: white;
 font-size: 30px;
@@ -12,6 +9,8 @@ font-size: 30px;
 
 .lefties {
   float: left;
+
+  
 
 }
 .imagesx{
