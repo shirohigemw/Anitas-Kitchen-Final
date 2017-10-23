@@ -57,12 +57,22 @@ ul {
   text-align: center;
 }
 
-
+#image2 {
+  float: right;
+}
 
 
 #righties{
   float: right;
 }
+
+
+.banner {
+  background-image: url("img/backgrounds/foodsbg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 
 li a {
     display: block;
