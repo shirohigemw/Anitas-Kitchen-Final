@@ -2,7 +2,7 @@
   background-image: url("../img/backgrounds/landing.jpg");
   text-align: center;
 width: 100%;
-height: 600px;
+height: 800px;
 color: white;
 font-size: 30px;
 background-repeat: no-repeat;
@@ -27,7 +27,7 @@ ul {
 }
 
 
-.breakfast {
+#breakfast {
   background-image: url("../img/foodtop/breakfast.jpg");
   background-size: 100%;
   height: 500px;
@@ -35,9 +35,10 @@ ul {
   color: white;
   font-size: 35px;
   text-align: center;
+  padding-right: 20px;
 }
 
-.lunch {
+#lunch {
   background-image: url("../img/foodtop/lunch.jpg");
   background-size: 100%;
   height: 500px;
@@ -47,7 +48,7 @@ ul {
   text-align: center;
 }
 
-.dinner {
+#dinner {
   background-image: url("../img/foodtop/dinner.jpg");
   background-size: 100%;
   height: 500px;
@@ -67,9 +68,10 @@ ul {
 }
 
 
-.banner {
-  background-image: url("img/backgrounds/foodsbg.jpg");
-  background-size: 100%;
+#banner11 {
+  background-image: url("../img/backgrounds/foodsBg.jpg");
+  background-size: cover;
+  width:auto;
   background-repeat: no-repeat;
 }
 
@@ -86,4 +88,13 @@ li a:hover {
     background-color: #FF6633;
     color: white;
     text-decoration: none;
+}
+
+
+.second{
+  padding: 26px;
+  background-color: orange;
+}
+.first{
+  padding: 120px;
 }
